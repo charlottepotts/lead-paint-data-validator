@@ -139,7 +139,7 @@ merged["lab_comment"] = merged["COMMENTS"].astype("string").fillna("").str.strip
 merged["has_lab_comment"] = merged["lab_comment"].ne("")
 
 # ----------------------------
-# Build issues table (human-readable)
+# Build issues table
 # ----------------------------
 
 issues = []
